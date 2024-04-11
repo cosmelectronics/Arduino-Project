@@ -8,8 +8,8 @@ The heart rate monitor measures the heart rate by detecting pulse waves from the
 - Arduino board (e.g., Arduino Uno)
 - Pulse Sensor
 - LCD display (16x2 characters)
+- Breadboard
 - I2C module
-- 220-ohm resistor
 - Jumper wires
 
 ## Circuit Diagram
