@@ -13,9 +13,7 @@ The heart rate monitor measures the heart rate by detecting pulse waves from the
 - Jumper wires
 
 ## Circuit Diagram
-- The circuit diagram for this project can be found in the "circuit_diagram.png" file uploaded in the repository.
-
-The circuit diagram illustrates the connections between the components. Detailed instructions on wiring can be found in the repository.
+- The circuit diagram illustrates the connections between the components. Detailed instructions on wiring can be found in the repository.
 
 ## How It Works
 1. The Pulse Sensor is attached to a finger, detecting blood flow and generating analog signals.
