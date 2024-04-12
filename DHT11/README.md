@@ -17,8 +17,6 @@ This project utilizes a DHT11 temperature and humidity sensor along with an Ardu
 
 The circuit should resemble the following, with red wires indicating VCC and black wires indicating GND.
 
-[Insert Circuit Diagram Image Here]
-
 *Note: If your sensor is rapidly getting warm (only for 4 pin sensors), attach a 10K pull-up resistor joining VCC and the signal ends of the sensor.*
 
 ## Code Setup
