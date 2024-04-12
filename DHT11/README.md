@@ -1,4 +1,4 @@
-# Project Readme
+# DHT11 Temperature and Humidity Sensor
 
 This project utilizes a DHT11 temperature and humidity sensor along with an Arduino UNO board. However, you can substitute any other sensor, with corresponding changes in the code according to the model. Here's how to set it up:
 
