@@ -26,7 +26,7 @@ The circuit should resemble the following, with red wires indicating VCC and bla
 ### Libraries
 Ensure you have the following libraries installed:
 
-1. DHT Library ([Download Link](#)) - Use this library for interfacing with the DHT sensor.
+1. DHT Library ([Download Link](https://github.com/adafruit/DHT-sensor-library)) - Use this library for interfacing with the DHT sensor.
 2. LiquidCrystal_I2C Library - If you're using the Arduino Web Editor, no additional download is required as it's pre-included. If you're using software, this library might be pre-included, but if not, you can download it separately.
 
 ### Code Implementation
