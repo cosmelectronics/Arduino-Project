@@ -1,15 +1,14 @@
-```markdown
 # I2C LCD Screen Project
 
 This project aims to provide a simple guide for programming I2C LCD screens using the LiquidCrystal_I2C library with Arduino. It's designed for individuals who are looking for straightforward instructions on setting up and coding these displays.
 
-## Requirements
+# Requirements
 - Arduino board
 - I2C LCD screen
 - LiquidCrystal_I2C library
 - Wire library
 
-## Setup
+# Setup
 1. **Library Installation**: Download the LiquidCrystal_I2C and Wire libraries.
 - Search for the LiquidCrystal_I2C and Wire.h in Arduino IDE libraries sections.
 
@@ -22,5 +21,5 @@ This project aims to provide a simple guide for programming I2C LCD screens usin
 
 **Note**: Ensure to clear any existing sketch before pasting the provided code.
 
-## Credits
+# Credits
 - Project by Prince Kushwaha
