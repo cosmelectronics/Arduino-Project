@@ -1,0 +1,28 @@
+// This Code is Designed by Prince Kushwaha from COSM Electronics
+// Define the pins for the relay module
+const int relayPin1 = 7;
+const int relayPin2 = 8;
+
+void setup() {
+  // Initialize the relay pins as outputs
+  pinMode(relayPin1, OUTPUT);
+  pinMode(relayPin2, OUTPUT);
+  
+  // Start with the relays off
+  digitalWrite(relayPin1, LOW);
+  digitalWrite(relayPin2, LOW);
+}
+
+void loop() {
+  // Turn the first relay on (activate)
+  digitalWrite(relayPin1, HIGH);
+  // Turn the second relay on (activate)
+  digitalWrite(relayPin2, LOW);
+  delay(1000); // Wait for a second
+
+  // Turn the first relay off (deactivate)
+  digitalWrite(relayPin1, LOW);
+  // Turn the second relay off (deactivate)
+  digitalWrite(relayPin2, HIGH);
+  delay(1000); // Wait for a second
+}
