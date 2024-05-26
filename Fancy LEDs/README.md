@@ -1,4 +1,4 @@
-# LED Light Modes Controller
+# Arduino Based Fancy Lights Controller
 
 This project is designed to control the behavior of four LEDs using a mode switch. The modes include turning all LEDs off, turning all LEDs on, flashing all LEDs, and creating a waving effect.
 
