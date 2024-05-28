@@ -1,4 +1,4 @@
-# Arduino based Dital Clock without DS3231 RTC Module
+# Arduino based Digital Clock without DS3231 RTC Module
 
 This project demonstrates how to create a simple 12-hour clock with AM/PM using an Arduino Uno and a 16x2 LCD with I2C interface. Users can input the initial time via the Serial Monitor in the HH:MM:SS AM/PM format, and the clock will keep track of time and display it on the LCD.
 
