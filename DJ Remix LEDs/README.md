@@ -1,7 +1,3 @@
-Sure! Below is a `README.md` file for your project:
-
----
-
 # Arduino DJ Remix LED Project
 
 ## Description
@@ -33,7 +29,7 @@ This project creates a dynamic DJ remix light show using four LEDs (red, green, 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your_username/arduino-dj-remix-led.git
+   git clone https://github.com/cosmelectronics/Arduino-Project/tree/main/DJ%20Remix%20LEDs
    ```
 
 2. **Open the project in Arduino IDE:**
