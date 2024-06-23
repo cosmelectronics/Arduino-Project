@@ -1,4 +1,4 @@
-# Accurate Clock
+# Accurate Digital Clock
 
 ## Overview
 
