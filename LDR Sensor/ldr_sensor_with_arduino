@@ -1,0 +1,30 @@
+// This Code is designed by Prince Kushwaha
+
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+
+int sensorPin = A0; // select the input pin for LDR
+int sensorValue = 0; // variable to store the value coming from the sensor
+
+// Set the LCD address to 0x27 for a 16 chars and 2 line display
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+
+void setup() {
+  Serial.begin(9600); // sets serial port for communication
+  lcd.init(); // initialize the LCD
+  lcd.backlight(); // turn on the backlight
+}
+
+void loop() {
+  sensorValue = analogRead(sensorPin); // read the value from the sensor
+  Serial.println(sensorValue); // prints the values coming from the sensor on the serial monitor
+
+  lcd.setCursor(0, 0); // set the cursor to column 0, line 0 (first row)
+  lcd.print("LDR Value: "); // print label
+  lcd.print(sensorValue); // print the LDR value
+
+  lcd.setCursor(0, 1); // set the cursor to column 0, line 1 (second row)
+  lcd.print("COSMELECTRONICS"); // print "COSMELECTRONICS"
+
+  delay(1000);
+}
