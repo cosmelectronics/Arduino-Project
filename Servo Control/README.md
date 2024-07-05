@@ -44,7 +44,3 @@ This project demonstrates how to control a servo motor using a potentiometer. Th
 
 - This code is designed by Prince Kushwaha from COSM Electronics.
 - For detailed explanation and troubleshooting, refer to the official documentation of the Servo library.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
