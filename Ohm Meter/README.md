@@ -41,7 +41,7 @@ This project measures the resistance of an unknown resistor using an Arduino Uno
 
 1. **Clone the Repository**
 
-   - git clone [https://github.com/yourusername/arduino-ohm-meter](https://github.com/cosmelectronics/Arduino-Project/tree/main/Ohm%20Meter.git)
+   - git clone [https://github.com/yourusername/arduino-ohm-meter](https://github.com/cosmelectronics/Arduino-Project/tree/main/Ohm%20Meter)
    - cd arduino-resistor-measurement
 
 
