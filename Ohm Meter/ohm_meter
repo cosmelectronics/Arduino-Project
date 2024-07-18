@@ -1,0 +1,48 @@
+// This Code is Designned by Prince Kushwaha
+
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+
+// Initialize the LCD with the I2C address of 0x27 and 16x2 dimensions
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+
+int analogPin = 0;
+int raw = 0;
+int Vin = 5;
+float Vout = 0;
+float R1 = 1000;
+float R2 = 0;
+float buffer = 0;
+
+void setup() {
+  // Initialize the LCD
+  lcd.init();
+  lcd.backlight();
+  Serial.begin(9600);
+}
+
+void loop() {
+  raw = analogRead(analogPin);
+  if (raw) {
+    buffer = raw * Vin;
+    Vout = (buffer) / 1024.0;
+    buffer = (Vin / Vout) - 1;
+    R2 = R1 * buffer;
+    Serial.print("Vout: ");
+    Serial.println(Vout);
+    Serial.print("R2: ");
+    Serial.println(R2);
+    // Print the Vout and R2 values on the LCD
+    lcd.setCursor(0, 0);
+    lcd.print("Vout: ");
+    lcd.print(Vout, 2);  // Print Vout with 2 decimal places
+
+    lcd.setCursor(0, 1);
+    lcd.print("R2: ");
+    lcd.print(R2, 2);  // Print R2 with 2 decimal places
+    lcd.print(" ohms");
+    
+    delay(1000);
+    lcd.clear();
+  }
+}
