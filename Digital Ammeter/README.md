@@ -21,7 +21,7 @@ This project is designed to measure current using an Arduino Uno, a 16x2 LCD wit
 
 ## Circuit Diagram
 
-[Circuit Diagram]([path_to_circuit_diagram_image](https://github.com/cosmelectronics/Arduino-Project/blob/main/Digital%20Ammeter/Circuit%20Diagram.png)
+![Circuit Diagram]([path_to_circuit_diagram_image](https://github.com/cosmelectronics/Arduino-Project/blob/main/Digital%20Ammeter/Circuit%20Diagram.png )
 
 ## Code
 
