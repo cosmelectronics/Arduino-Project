@@ -25,7 +25,7 @@ This project is designed to measure current using an Arduino Uno, a 16x2 LCD wit
 
 ## Code
 
-The code for this project is available in the `main.ino` file. Below is a brief overview of the code structure:
+The code for this project is available in the `digital_ammeter.ino` file. Below is a brief overview of the code structure:
 
 1. **Include Libraries**: The necessary libraries for the LCD and I2C communication are included.
 2. **Initialize LCD**: The LCD is initialized with its I2C address.
