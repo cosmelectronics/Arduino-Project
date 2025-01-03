@@ -1,6 +1,6 @@
 # Arduino Buzzer Music Player 🎶
 
-This project demonstrates how to generate melodies using a buzzer and Arduino. The code is designed to play a sequence of musical notes with varying durations, creating a complete melody.
+This project demonstrates how to create and play melodies using a buzzer and Arduino. The program generates a series of musical notes, producing a delightful melody with precise timing and pitch.
 
 ---
 
@@ -86,4 +86,4 @@ This project is open-source and available for educational and personal use. Attr
 
 ---
 
-Happy tinkering and enjoy the melody! 🎶
+Happy tinkering and enjoy the music! 🎵
