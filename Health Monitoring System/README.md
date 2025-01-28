@@ -113,4 +113,4 @@ You can install these libraries from the Arduino Library Manager:
 
 ## Author  
 **Prince Kushwaha**  
-FOllow **COSM Electronics** for more Projects.
+Follow **COSM Electronics** for more Projects.
