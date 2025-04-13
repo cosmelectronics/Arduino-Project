@@ -77,7 +77,7 @@ Designed with ❤️ under [COSM Electronics](https://github.com/cosmelectronics
 
 ## 🌐 GitHub Repository
 
-🔗 [Visit Project on GitHub](https://github.com/cosmelectronics/](https://github.com/cosmelectronics/Arduino-Project/tree/main/Motion%20Detection)
+🔗 [Visit Project on GitHub](https://github.com/cosmelectronics/Arduino-Project/tree/main/Motion%20Detection)
 
 ---
 
